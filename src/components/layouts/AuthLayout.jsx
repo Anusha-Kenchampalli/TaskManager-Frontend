@@ -6,7 +6,7 @@ function AuthLayout({children}) {
     <>
     <div className='bg-[url("https://res.cloudinary.com/dzpcirnqq/image/upload/v1755964377/Screenshot_2025-08-23_212149_dqzkdw.png")] md:bg-[url("https://res.cloudinary.com/dzpcirnqq/image/upload/v1757758725/Gemini_Generated_Image_lyu4iilyu4iilyu4_mprrr4.png")] md:flex h-screen items-center justify-center bg-cover bg-no-repeat bg-center overflow-hidden p-8'>
         <div className='w-screen h-screen md:w-[60vw] md:mr-[600px] px-12 pt-8 pb-12'>
-            <h2 className='text-2xl font-medium text-black'>Task Manager</h2>
+            <h2 className='text-3xl text-black font-medium md:mt-7 '>Task Manager</h2>
             {children}
         </div>
     
