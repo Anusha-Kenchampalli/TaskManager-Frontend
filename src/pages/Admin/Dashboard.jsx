@@ -120,7 +120,7 @@ function Dashboard() {
       </div>
     </div>
 
-      <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-6 my-4 md:my-6'>
+      <div className='grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-6 my-4 md:my-6'>
 
         <div>
           <div className='card'>
