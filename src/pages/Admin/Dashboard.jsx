@@ -13,6 +13,7 @@ import { LuArrowRight } from 'react-icons/lu';
 import TaskListTable from '../../components/TaskListTable'
 import CustomPieChart from '../../components/Charts/CustomPieChart'
 import CustomBarChart from '../../components/Charts/CustomBarChart';
+// import UserContext1 from '../../context/userContext1';
 
 
 const COLORS = ["#8D51FF", "#00BBDB", "#7BCE00"]
@@ -20,7 +21,7 @@ const COLORS = ["#8D51FF", "#00BBDB", "#7BCE00"]
 function Dashboard() {
   useUserAuth();
 
-  // const {user} = useContext(UserContext)
+  // const {user} = useContext(UserContext1)
 
   const navigate = useNavigate();
 
@@ -78,7 +79,7 @@ function Dashboard() {
     <div className='card my-5'>
       <div >
         <div className='col-span-3'>
-          <h2 className='text-xl md:text-2xl'>Good Morning!</h2>
+          <h2 className='text-xl md:text-2xl'>Good Morning! </h2>
           <p className='text-xs md:text-[13px] text-gray-400 mt-1.5'>
             {moment().format("dddd Do MMM YYYY")}
           </p>

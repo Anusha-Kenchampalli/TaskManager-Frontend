@@ -1,12 +1,22 @@
-# React + Vite
+# Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **MERN stack application** that helps users manage tasks effectively with features like charts, tables, and role-based dashboards. It provides insights using **Pie Charts, Bar Charts, and Tabular Views** for better task tracking and productivity analysis.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ✅ User Authentication & Authorization  
+- 📊 Interactive **Pie Chart & Bar Chart** for task analytics  
+- 📋 Tabular task management with filtering & sorting  
+- 👥 Role-based access for **Admin & User**  
+- 📱 Responsive UI with modern design  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **Frontend:** React, Tailwind CSS  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Charts:** Chart.js / Recharts 
+
+
