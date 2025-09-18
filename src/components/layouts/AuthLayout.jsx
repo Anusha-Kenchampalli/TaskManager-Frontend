@@ -7,7 +7,7 @@ function AuthLayout({ children }) {
                     md:flex min-h-screen items-center justify-center bg-cover bg-no-repeat bg-center overflow-y-auto p-8'>
       
       <div className='w-full md:w-[60vw] md:mr-[600px] px-12 pt-8 pb-12'>
-        <h2 className='text-3xl text-black font-medium md:mt-7'>Task Manager</h2>
+        <h2 className='text-3xl text-black font-medium mb-15'>Task Manager</h2>
         {children}
       </div>
 

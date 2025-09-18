@@ -102,7 +102,7 @@ const SignUp = () => {
 
   return (
     <AuthLayout>
-      <div className='lg:w-[100%] h-auto md:h-full mt-10 md:mt-0 flex flex-col justify-center'>
+      <div className='lg:w-[100%] h-auto md:h-full mt-15 md:mt-0 flex flex-col justify-center'>
         <h3 className='text-xl font-semibold text-black'>Create an Account</h3>
         <p className='text-xs text-slate-700 mb-6'>
           Join us today by entering your details below.
@@ -149,7 +149,7 @@ const SignUp = () => {
 
           <button
             type='submit'
-            className='btn-primary'
+            className='bg-blue-800 md:bg-purple-800 w-full text-white p-2 rounded-md'
             disabled={loading}
           >
             {loading ? "Signing up..." : "SIGN UP"}
