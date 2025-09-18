@@ -17,6 +17,6 @@ A **MERN stack application** that helps users manage tasks effectively with feat
 - **Frontend:** React, Tailwind CSS  
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB  
-- **Charts:** Chart.js / Recharts 
+- **Charts:** Piechart, Barchart/ Recharts 
 
 
