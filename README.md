@@ -1,6 +1,6 @@
 # Task Manager
 
-A **MERN stack application** that helps users manage tasks effectively with features like charts, tables, and role-based dashboards. It provides insights using **Pie Charts, Bar Charts, and Tabular Views** for better task tracking and productivity analysis.
+A **MERN stack application** that helps users manage tasks effectively with features like charts, tables, and role-based dashboards. It provides insights using **Pie Charts, Bar Charts, and Tabular Views** for better task tracking and productivity analysis. As it is role based application admin can only assign tasks to users or members.
 
 ---
 
